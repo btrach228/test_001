@@ -34,9 +34,10 @@
   position: fixed;
   top: -1150px;
   left: 40%;
-  border: 2px solid red;
   background-color: #7957d5;
   z-index: 1;
+  box-shadow: 0 0 10px rgba(1, 0, 0, 0.5);
+
   transition: all ease 0.5s;
   padding: 20px;
 }
