@@ -5,6 +5,7 @@ const activeBtn = [btn, closePop];
 
 activeBtn.forEach((item) => {
   item.addEventListener("click", (e) => {
+    // e.preventDefault();
     popUp.classList.toggle("popUp-active");
   });
 });
