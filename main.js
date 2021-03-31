@@ -1,13 +1,10 @@
 const btn = document.querySelector(".btn");
 const popUp = document.querySelector(".pop_up");
 const closePop = document.querySelector(".slosePop_btn");
+const activeBtn = [btn, closePop];
 
-btn.addEventListener("click", (e) => {
-  e.preventDefault();
-  popUp.classList.add("popUp-active");
-});
-
-closePop.addEventListener("click", (e) => {
-  e.preventDefault();
-  popUp.classList.remove("popUp-active");
+activeBtn.forEach((item) => {
+  item.addEventListener("click", (e) => {
+    popUp.classList.toggle("popUp-active");
+  });
 });
