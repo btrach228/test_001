@@ -4,40 +4,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-/* .main-header {
-  width: 100%;
-  padding: 20px 0;
-  background-color: #4a4a4a;
-  text-transform: uppercase;
-}
-
-.nav_list {
-  display: flex;
-  justify-content: space-around;
-}
-.nav_list li {
-  list-style: none;
-  transition: all ease 0.5s;
-  cursor: pointer;
-}
-.nav_list a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.nav_list li:hover {
-  color: #fff;
-}
-
-.active {
-  border-bottom: 1px solid #fff;
-} */
-
-/* .collapse {
-  display: flex;
-  justify-content: space-between;
-} */
-
 .jumbotron {
   padding: 50px;
   margin-bottom: 20px;
@@ -46,6 +12,7 @@
 
 .jumbotron h1 {
   color: #fff;
+  text-transform: uppercase;
 }
 
 .jumbotron p {
@@ -86,8 +53,10 @@
   .pop_up {
     display: none;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100%;
+    height: 94.5%;
     margin-bottom: 150px;
     border: 2px solid red;
     background-color: #4a4a4a;
@@ -190,4 +159,8 @@ a {
   background-color: #7957d5;
   color: white;
   text-align: center;
+}
+
+.footer p {
+  padding: 10px 0 0 0;
 }
