@@ -1,6 +1,6 @@
-let btn = document.querySelector(".btn");
-let popUp = document.querySelector(".pop_up");
-let closePop = document.querySelector(".slosePop_btn");
+const btn = document.querySelector(".btn");
+const popUp = document.querySelector(".pop_up");
+const closePop = document.querySelector(".slosePop_btn");
 
 btn.addEventListener("click", (e) => {
   e.preventDefault();
